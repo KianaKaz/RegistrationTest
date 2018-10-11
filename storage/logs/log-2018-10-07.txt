@@ -1,0 +1,22 @@
+[07-Oct-2018 17:36:34 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(57): Core\Router->dispatch('/')
+#1 {main} 
+[07-Oct-2018 17:36:35 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(57): Core\Router->dispatch('/favicon.ico')
+#1 {main} 
+[07-Oct-2018 21:54:51 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(57): Core\Router->dispatch('/')
+#1 {main} 
+[07-Oct-2018 21:54:54 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(57): Core\Router->dispatch('/favicon.ico')
+#1 {main} 
+[07-Oct-2018 21:54:54 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(57): Core\Router->dispatch('/favicon.ico')
+#1 {main} 
+[07-Oct-2018 21:55:00 Europe/Berlin]   Error    syntax error, unexpected ','    On File C:\xampp\htdocs\App\Controllers\RegisterController.php  At Line 102   Stack Trace :  #0 C:\xampp\htdocs\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 C:\xampp\htdocs\Core\Router.php(69): class_exists('App\\Controllers...')
+#4 C:\xampp\htdocs\public\index.php(57): Core\Router->dispatch('/register')
+#5 {main} 
+[07-Oct-2018 22:05:04 Europe/Berlin]   Error    syntax error, unexpected ','    On File C:\xampp\htdocs\App\Controllers\RegisterController.php  At Line 102   Stack Trace :  #0 C:\xampp\htdocs\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 C:\xampp\htdocs\Core\Router.php(69): class_exists('App\\Controllers...')
+#4 C:\xampp\htdocs\public\index.php(57): Core\Router->dispatch('/register')
+#5 {main} 
