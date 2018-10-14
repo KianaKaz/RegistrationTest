@@ -17,6 +17,7 @@ set_exception_handler('\Core\Error::exceptionHandler');
 $route = new Core\Router();
 
 
+$route->add('/register/Api/demo/{id}','SuccessController@demo');
 
 $route->add('/register/store/step3/{id}','RegisterController@register3');
 

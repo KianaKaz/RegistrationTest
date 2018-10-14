@@ -1,0 +1,56 @@
+[14-Oct-2018 09:35:11 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('/robots.txt')
+#1 {main} 
+[14-Oct-2018 09:35:11 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('/')
+#1 {main} 
+[14-Oct-2018 09:35:11 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('/favicon.ico')
+#1 {main} 
+[14-Oct-2018 09:35:12 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('/favicon.ico')
+#1 {main} 
+[14-Oct-2018 10:01:26 Europe/Berlin]   Error    Method demo Doesnt Exist In Class App\Controllers\RegisterController    On File C:\xampp\htdocs\Core\Router.php  At Line 74   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/register/Api/d...')
+#1 {main} 
+[14-Oct-2018 10:07:26 Europe/Berlin]   Error    Header may not contain more than a single header, new line detected    On File C:\xampp\htdocs\App\helpers.php  At Line 4   Stack Trace :  #0 [internal function]: Core\Error::errorHandler(2, 'Header may not ...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\App\helpers.php(4): header('location:https:...')
+#2 C:\xampp\htdocs\App\Controllers\SuccessController.php(21): redirect('https://37f32cl...')
+#3 [internal function]: App\Controllers\SuccessController->demo('32')
+#4 C:\xampp\htdocs\Core\Router.php(72): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/register/Api/d...')
+#6 {main} 
+[14-Oct-2018 10:16:43 Europe/Berlin]   Error    Header may not contain more than a single header, new line detected    On File C:\xampp\htdocs\App\Controllers\SuccessController.php  At Line 21   Stack Trace :  #0 [internal function]: Core\Error::errorHandler(2, 'Header may not ...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\App\Controllers\SuccessController.php(21): header('https://37f32cl...')
+#2 [internal function]: App\Controllers\SuccessController->demo('32')
+#3 C:\xampp\htdocs\Core\Router.php(72): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/register/Api/d...')
+#5 {main} 
+[14-Oct-2018 10:31:15 Europe/Berlin]   Error    Undefined index: id    On File C:\xampp\htdocs\App\Controllers\SuccessController.php  At Line 22   Stack Trace :  #0 C:\xampp\htdocs\App\Controllers\SuccessController.php(22): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 [internal function]: App\Controllers\SuccessController->demo('32')
+#2 C:\xampp\htdocs\Core\Router.php(72): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/register/Api/d...')
+#4 {main} 
+[14-Oct-2018 10:33:32 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/robots.txt')
+#1 {main} 
+[14-Oct-2018 10:57:47 Europe/Berlin]   Error    stream_context_create() expects parameter 1 to be array, string given    On File C:\xampp\htdocs\App\Controllers\SuccessController.php  At Line 38   Stack Trace :  #0 [internal function]: Core\Error::errorHandler(2, 'stream_context_...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\App\Controllers\SuccessController.php(38): stream_context_create('https://37f32cl...')
+#2 [internal function]: App\Controllers\SuccessController->demo('32')
+#3 C:\xampp\htdocs\Core\Router.php(72): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/register/Api/d...')
+#5 {main} 
+[14-Oct-2018 10:59:20 Europe/Berlin]   Error    file_get_contents(https://37f32cl571.execute-api.eu-central-1.amazonaws.com/default/wunderfleet-recruiting-backend-dev-save-payment-data): failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+    On File C:\xampp\htdocs\App\Controllers\SuccessController.php  At Line 40   Stack Trace :  #0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\App\Controllers\SuccessController.php(40): file_get_contents('https://37f32cl...', false, Resource id #36)
+#2 [internal function]: App\Controllers\SuccessController->demo('32')
+#3 C:\xampp\htdocs\Core\Router.php(72): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/register/Api/d...')
+#5 {main} 
+[14-Oct-2018 11:00:16 Europe/Berlin]   Error    file_get_contents(http://www.example.com/submit/get.php): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+    On File C:\xampp\htdocs\App\Controllers\SuccessController.php  At Line 40   Stack Trace :  #0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\App\Controllers\SuccessController.php(40): file_get_contents('http://www.exam...', false, Resource id #36)
+#2 [internal function]: App\Controllers\SuccessController->demo('32')
+#3 C:\xampp\htdocs\Core\Router.php(72): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/register/Api/d...')
+#5 {main} 
+[14-Oct-2018 15:37:13 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/')
+#1 {main} 
+[14-Oct-2018 15:37:13 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/favicon.ico')
+#1 {main} 
+[14-Oct-2018 15:37:13 Europe/Berlin]   Error    404 | not found    On File C:\xampp\htdocs\Core\Router.php  At Line 84   Stack Trace :  #0 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('/favicon.ico')
+#1 {main} 

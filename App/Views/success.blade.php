@@ -17,23 +17,7 @@
 <p>Acount Owner: {{payment()['Acount_owner']}}</p>
 <p>IBAN: {{payment()['IBAN']}}</p>
 <p>UserId: {{payment()['id']}}</p>
-<form action="https://37f32cl571.execute-api.eu-central-1.amazonaws.com/default/wunderfleet-recruiting-backend-dev-save-payment-data" method="post">
-    <input type="hidden" value="{{payment()['Acount_owner']}}">
-    <input type="hidden" value="{{payment()['IBAN']}}">
-    <input type="hidden" value="{{(payment()['id'])}}">
-@php
-$json = array(
-            'id' => payment()['id'],
-            'owner' => payment()['Acount_owner'],
-            'IBAN' => payment()['IBAN']
-
-        );
-        echo json_encode($json);
-@endphp
 
 
-<button type="submit" class="btn btn-success btn-lg pull-center">API Demo</button>
-</form>
+<a href="/register/Api/demo/{{(payment()['id'])}}"  class="btn btn-success btn-lg pull-center">API Demo</a>
 
-<script src="//ajax.googleapiapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-<script src="/js/global.js"></script>
